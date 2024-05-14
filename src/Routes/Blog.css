@@ -1,0 +1,46 @@
+.pushh
+{
+    
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cool-text-area {
+    font-family: 'Roboto', sans-serif; /* Apply the cool font */
+    width: 700px;
+    height: 450px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Disable resizing */
+    outline: none; /* Remove outline */
+  }
+
+  /* Optional: Add some styles to make it look even cooler */
+  .cool-text-area:focus {
+    border-color: #01959a; /* Change border color on focus */
+    box-shadow: 0 4px 6px rgba(1, 149, 154, 0.3); /* Add a subtle shadow on focus */
+  }
+
+  .upload-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #222;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+
+  .upload-btn:hover {
+    background-color: #01959a;
+    color: #fff;
+  }
+
+  /* Hide the file input */
+  .file-input {
+    display: none;
+  }
